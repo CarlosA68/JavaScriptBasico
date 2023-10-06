@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atribuindo o valor de uma tag HTML por ID</title>
+</head>
+<body>
+    <p id="txt01">Texto no parágrafo</p>
+    <script>
+        document.write("<h1> Sistema em JavaScript</h1>")
+        var texto = document.getElementById("txt01");
+texto.innerHTML = "<span style='font-weight: bold; color: blue;'>Atribuindo o texto no parágrafo com getElementByID</span>";
+
+    </script>
+    
+</body>
+</html>
+
+
+
+
+<!-- document.write('<h1 style="font-family: Verdana; color: red;"><strong>Primeira página em Java Script</strong>'); --> 
+
+    <!-- document.getElementById("txt01").textContent = 'Atribuindo o texto no parágrafo com getElementByID'; -->
